@@ -1,0 +1,99 @@
+html {
+	font-family:arial, sans-serif;
+	font-size:small;
+	color:#737373;
+}
+
+ul {
+	list-style-type:none;
+	display:inline;
+}
+
+li {
+	float:right;
+}
+
+.header li {
+	margin:20px 10px;
+	display:block;
+}
+
+.header #apps {
+	background-image: 
+	url(https://raw.githubusercontent.com/n8sb/odin-project/master/google-homepage/style/../images/sprite.png);
+	background-position: -69px -854px;
+	position:absolute;
+	right:85px;
+	top:2px;
+	width: 30px;
+    height: 30px;
+    float:left;
+}
+
+.header button {
+	margin-top:-6px;
+	margin-left:25px;
+	background:#4285f4;
+	color:white;
+	font-weight:bold;
+	font-size:13px;
+	border:none;
+	border-radius:2px;
+	width:70px;
+	height:30px;
+	display:block;
+	position:relative;
+}
+
+#content {
+	display:block;
+	text-align: -webkit-center;
+	margin-top:180px;
+}
+
+#content img {
+	width:272px;
+}
+
+input {
+	width:600px;
+	display:block;
+	margin:30px;
+	height:35px;
+}
+
+#content button {
+	color:#757575;
+	width:140px;
+	height:35px;
+	background:#f2f2f2;
+	border:none;
+	border-radius:2px;
+	font-size:13px;
+	font-weight:bold;
+	margin-right:5px;
+}
+
+#left-side {
+	float:left;
+}
+
+#right-side {
+	margin-right:30px;
+	float:right;
+}
+
+.footer {
+	clear:both;
+	border-top: 1px solid #e4e4e4;
+	bottom:0;
+	height:35px;
+	position:absolute;
+	width:100%;
+	background:#f2f2f2;
+    min-width: 980px;
+}
+
+.footer li {
+	margin:0 15px;
+}
